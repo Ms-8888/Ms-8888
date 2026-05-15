@@ -14,7 +14,7 @@ Based in Turnhout, Belgium.
 
 **[ms-ai-review](https://github.com/Ms-8888/ms-ai-review)** — CLI tool that reviews code files using the Claude API and returns structured findings. Python · Streaming · Tool use · Prompt caching
 
-I also maintain private projects including a multi-tenant Telegram SaaS and an AI task orchestrator.
+I also maintain private projects: a multi-tenant Telegram SaaS that routes trading signals to 100+ bots with AI rewriting, HMAC delivery, and subscription billing — and an autonomous AI task orchestrator that plans, prioritises, and executes development work using Claude with a trust/learning feedback loop.
 
 ---
 
