@@ -25,7 +25,3 @@ I also maintain private projects: a multi-tenant Telegram SaaS that routes tradi
 Python · FastAPI · PostgreSQL · Redis · React · TypeScript · Docker · Claude API
 
 ---
-
-## Contact
-
-mohannadshafik@msportfolio.be · Turnhout, Belgium · CV available on request
