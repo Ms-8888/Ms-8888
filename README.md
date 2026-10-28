@@ -1,27 +1,29 @@
 # Mohannad Shafik
 
-Full-stack developer building reliable backend systems and AI-powered tools.
-Focused on async APIs, real-time data, and LLM integrations.
-Based in Turnhout, Belgium.
+**Full-Stack Developer — AI & Automation** · Turnhout, Belgium
+
+I build end-to-end systems in Python and TypeScript: API, database, dashboard and AI integration through the Claude API. I'm looking for a first role as a junior developer.
+
+[LinkedIn](https://www.linkedin.com/in/mohannad-shafik/) · [mohannadshafik@msportfolio.be](mailto:mohannadshafik@msportfolio.be)
 
 ---
 
 ## Projects
 
-**[ms-webhook-api](https://github.com/Ms-8888/ms-webhook-api)** — Delivers webhook events to registered endpoints with retry logic and delivery tracking. FastAPI · PostgreSQL · Redis · Docker
+| Project | What it solves | Tech | Demo |
+|---|---|---|---|
+| [ms-webhook-api](https://github.com/Ms-8888/ms-webhook-api) | Delivers events to customer endpoints reliably: signed requests, automatic retries, delivery tracking | FastAPI · PostgreSQL · Redis · Docker | [Live API](https://ms-webhook-api.onrender.com/health) |
+| [ms-webhook-ui](https://github.com/Ms-8888/ms-webhook-ui) | Dashboard to see deliveries, failures and retries as they happen; works offline in mock mode | React 18 · TypeScript · TanStack Query · Tailwind | [Live demo](https://ms-8888.github.io/ms-webhook-ui/) |
+| [ms-ai-review](https://github.com/Ms-8888/ms-ai-review) | Reviews a code file with the Claude API and streams structured findings with fixes | Python · Claude API · streaming · tool use · prompt caching | [Sample output](https://github.com/Ms-8888/ms-ai-review/blob/master/examples/sample_review.md) |
+| [ms-agent](https://github.com/Ms-8888/ms-agent) | Agent that investigates a codebase step by step and answers a question, then grades its own answer | Python · Claude API · ReAct loop · tool use | [Sample run](https://github.com/Ms-8888/ms-agent/blob/master/examples/sample_run.md) |
 
-**[ms-webhook-ui](https://github.com/Ms-8888/ms-webhook-ui)** — Real-time dashboard for monitoring webhook delivery status and failures. React 18 · TanStack Query · Tailwind
+The webhook API is hosted on a free tier, so the first request after a pause can take about 30 seconds.
 
-**[ms-ai-review](https://github.com/Ms-8888/ms-ai-review)** — CLI tool that reviews code files using the Claude API and returns structured findings. Python · Streaming · Tool use · Prompt caching
+## Private work
 
-**[ms-agent](https://github.com/Ms-8888/ms-agent)** — ReAct agent that autonomously investigates a codebase, reasons step by step, calls tools to read files and search patterns, then delivers a structured answer with a self-graded confidence score. Python · ReAct loop · Streaming · Claude API
-
-I also maintain private projects: a multi-tenant Telegram SaaS that routes trading signals to 100+ bots with AI rewriting, HMAC delivery, and subscription billing — and an autonomous AI task orchestrator that plans, prioritises, and executes development work using Claude with a trust/learning feedback loop.
-
----
+- **Telegram signal platform:** a multi-tenant system that distributes signals to multiple Telegram bots, with a queue, a React dashboard and a subscription model. Not public; happy to walk through it.
+- **AI task orchestrator:** a personal tool that plans and runs development tasks with Claude Code. Private.
 
 ## Stack
 
-Python · FastAPI · PostgreSQL · Redis · React · TypeScript · Docker · Claude API
-
----
+Python · TypeScript · FastAPI · React · PostgreSQL · Redis · Docker · Git · Claude API
