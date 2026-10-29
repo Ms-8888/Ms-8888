@@ -1,6 +1,6 @@
 # Mohannad Shafik
 
-**Full-Stack Developer — AI & Automation** · Turnhout, Belgium
+**Junior Full-Stack Developer — AI & Automation** · Turnhout, Belgium
 
 I build end-to-end systems in Python and TypeScript: API, database, dashboard and AI integration through the Claude API. I'm looking for a first role as a junior developer where I can contribute quickly and keep growing.
 
@@ -13,6 +13,7 @@ I build end-to-end systems in Python and TypeScript: API, database, dashboard an
 | Project | What it solves | Tech | Demo |
 |---|---|---|---|
 | [ms-webhook-api](https://github.com/Ms-8888/ms-webhook-api) | Delivers events to customer endpoints reliably: signed requests, automatic retries, delivery tracking | FastAPI · PostgreSQL · Redis · Docker | [Live API](https://ms-webhook-api.onrender.com/health) |
+| [ms-webhook-api-dotnet](https://github.com/Ms-8888/ms-webhook-api-dotnet) | The same webhook API ported to C# / ASP.NET Core 8: same routes and JSON, 70 automated tests, dashboard checked against it | ASP.NET Core 8 · EF Core · PostgreSQL · Redis · Docker | [Screenshot](https://github.com/Ms-8888/ms-webhook-api-dotnet/blob/main/docs/dashboard-events.png) |
 | [ms-webhook-ui](https://github.com/Ms-8888/ms-webhook-ui) | Dashboard to see deliveries, failures and retries as they happen; works offline in mock mode | React 18 · TypeScript · TanStack Query · Tailwind | [Live demo](https://ms-8888.github.io/ms-webhook-ui/) |
 | [ms-knowledge-assistant](https://github.com/Ms-8888/ms-knowledge-assistant) | Answers questions about company documents with cited sources, and says "I don't know" when the answer isn't in them | FastAPI · PostgreSQL + pgvector · local embeddings · React · Docker | [Case study](https://msportfolio.be/en/projects/knowledge-assistant/) |
 | [ms-data-quality](https://github.com/Ms-8888/ms-data-quality) | Finds invalid emails, duplicate rows and company-name variants in CSV and Excel files and applies only what you approve | Python · openpyxl · optional language model | [Case study](https://msportfolio.be/en/projects/data-quality/) |
@@ -23,9 +24,9 @@ The webhook API is hosted on a free tier, so the first request after a pause can
 
 ## Private work
 
-- **Telegram signal platform:** a multi-tenant system that distributes signals to multiple Telegram bots, with a queue, a React dashboard and a subscription model. Not public; happy to walk through it.
+- **Telegram signal platform:** a prototype that distributes signals to multiple Telegram bots, with a queue, a React dashboard and a subscription model. Private, not in production, no tests.
 - **AI task orchestrator:** a personal tool that plans and runs development tasks with Claude Code. Private.
 
 ## Stack
 
-Python · TypeScript · FastAPI · React · PostgreSQL · Redis · Docker · Git · Claude API
+Python · TypeScript · C# / .NET 8 (one project) · FastAPI · React · PostgreSQL · Redis · Docker · Git · Claude API
